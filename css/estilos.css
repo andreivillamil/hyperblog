@@ -12,7 +12,6 @@ body{
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
     color: white;
     font-weight: bold;
-    margin: 0;
     padding: 0.5em;
 
 }
@@ -25,7 +24,9 @@ body{
 
 #container {
     width: 70%;
-    padding: 1em;
+    padding-top: 0;
+    padding-left: 0px;
+    padding-right: 0px;
     text-align: left;
     border: 1px solid #ddd;
     margin: 0 auto;
@@ -33,4 +34,10 @@ body{
 
 #container h1{
     font-size: 20px;
+}
+
+#container #post{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
